@@ -26,11 +26,11 @@ files = os.listdir(path)
 #extensions = [ifile.split(".")[-1] for ifile in files if os.path.isfile(path+'/'+ifile) and '.' in ifile]
 #print(set(extensions))
 
-doc = ('rtf', 'docx','doc',  'docm', 'epub', 'xls','xlsx', 'torrent','pdf', 'ica','xml')
-audio=('mp3')
+doc = ('rtf', 'docx','doc',  'docm', 'epub', 'xls','xlsx', 'torrent','pdf', 'ica','xml','ppt','pptx')
+audio=('mp3','wav','ogg')
 videos = ('mp4','mkv')
 binaries = ('exe', 'oxt', 'deb', 'apk','msi')
-images = ('jpg','jpeg','png','tiff')
+images = ('jpg','jpeg','png','tiff','svg')
 compressed = ('tgz', 'gz', 'xz','bz2', 'zip', 'iso')
 code=('js','py', 'c', 'cpp', 'java','rb','css','go')
 
